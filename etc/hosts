@@ -1,0 +1,25 @@
+# /etc/hosts
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+#::1             localhost 
+
+10.222.104.135 ann1.pkteerpool.com
+10.222.104.136 ann2.pkteerpool.com
+10.222.104.57 ann3.pkteerpool.com
+10.222.105.191 ann4.pkteerpool.com
+10.222.105.192 ann5.pkteerpool.com
+10.222.105.102  goofy9.pkteer.com goofy9
+10.222.105.101  goofy10.pkteer.com goofy10
+10.161.117.165  goofy11.pkteer.com goofy11
+10.161.117.162  goofy12.pkteer.com goofy12
+10.222.109.173  goofy13.pkteer.com goofy13
+10.222.109.178  goofy14.pkteer.com goofy14
+10.222.108.48  goofy15.pkteer.com goofy15
+10.222.108.49  goofy16.pkteer.com goofy16
+10.79.83.97  goofy17.pkteer.com goofy17
+10.79.77.40  goofy18.pkteer.com goofy18
+
+51.222.82.4	sleepy19.pkteer.com sleepy19
+51.222.109.66	sleepy20.pkteer.com sleepy20
+
+
