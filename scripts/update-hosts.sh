@@ -1,4 +1,4 @@
-#!/usr/bash
+#!/bin/bash
 cd /home/miner/miner-system-files/
 /usr/bin/git pull
 yes | cp etc/hosts /etc/hosts
