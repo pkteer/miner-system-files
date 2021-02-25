@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INTERNAL_DEV=$(ip link show | grep -v '^\s' | tail -1 | sed 's/^[0-9]\+: \([a-zA-Z0-9]\+\): .*$/\1/')
+INTERNAL_DEV=$(ip link show | grep '^3: ' | sed 's/^[0-9]\+: \([a-zA-Z0-9]\+\): .*$/\1/')
 echo "It looks like the internal device is $INTERNAL_DEV"
 echo $INTERNAL_DEV | grep -q '^[a-zA-Z0-9]\+$' || exit 1
 
