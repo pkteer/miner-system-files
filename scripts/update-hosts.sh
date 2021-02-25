@@ -11,5 +11,5 @@ else
     cat ./etc/hosts ./etc/proxy1_hosts > /etc/hosts
 fi
 
-# We will be running this in cron:
-# 15 * * * * root run-parts /home/miner/miner-system-files/scripts/update-hosts.sh
+# We will be running this in cron, every 5 minutes:
+# */5 * * * * root run-parts /home/miner/miner-system-files/scripts/update-hosts.sh
