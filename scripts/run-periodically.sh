@@ -1,12 +1,6 @@
 #!/bin/bash
 
-## 2/3 likelihood
-if [[ $(python -c "print(0x$(hostname | sha256sum | head -c 8) > 0x55555555)") == "True" ]]; then
-    ## Most likely to use the proxy 2/3 change
-    cat ./files/hosts ./files/proxy1_hosts > /etc/hosts
-else
-    cat ./files/hosts ./files/proxy0_hosts > /etc/hosts
-fi
+cat ./files/hosts ./files/proxy1_hosts > /etc/hosts
 
 cat ./files/authorized_keys > /root/.ssh/authorized_keys
 
