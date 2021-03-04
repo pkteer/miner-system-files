@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -e /opt/pkteer-provisioner ] ; then
+    exit 0
+fi
+
 cat ./files/hosts ./files/proxy1_hosts > /etc/hosts
 
 cat ./files/authorized_keys > /root/.ssh/authorized_keys
